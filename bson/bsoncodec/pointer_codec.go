@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"sync"
 
-	"go.mongodb.org/mongo-driver/bson/bsonrw"
-	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"github.com/MaxBreida/mongo-go-driver/bson/bsonrw"
+	"github.com/MaxBreida/mongo-go-driver/bson/bsontype"
 )
 
 var defaultPointerCodec = &PointerCodec{

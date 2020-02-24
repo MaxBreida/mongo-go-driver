@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/MaxBreida/mongo-go-driver/x/mongo/driver/connstring"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/connstring"
 )
 
 func TestAppName(t *testing.T) {

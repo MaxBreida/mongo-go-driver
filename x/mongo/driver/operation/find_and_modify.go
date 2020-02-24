@@ -13,14 +13,14 @@ import (
 	"errors"
 	"fmt"
 
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/bson/bsontype"
-	"go.mongodb.org/mongo-driver/event"
-	"go.mongodb.org/mongo-driver/mongo/writeconcern"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/session"
+	"github.com/MaxBreida/mongo-go-driver/bson"
+	"github.com/MaxBreida/mongo-go-driver/bson/bsontype"
+	"github.com/MaxBreida/mongo-go-driver/event"
+	"github.com/MaxBreida/mongo-go-driver/mongo/writeconcern"
+	"github.com/MaxBreida/mongo-go-driver/x/bsonx/bsoncore"
+	"github.com/MaxBreida/mongo-go-driver/x/mongo/driver"
+	"github.com/MaxBreida/mongo-go-driver/x/mongo/driver/description"
+	"github.com/MaxBreida/mongo-go-driver/x/mongo/driver/session"
 )
 
 // FindAndModify performs a findAndModify operation.

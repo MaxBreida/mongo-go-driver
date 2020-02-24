@@ -13,10 +13,10 @@ import (
 	"path"
 	"testing"
 
+	testhelpers "github.com/MaxBreida/mongo-go-driver/internal/testutil/helpers"
+	"github.com/MaxBreida/mongo-go-driver/mongo/options"
+	"github.com/MaxBreida/mongo-go-driver/x/mongo/driver/connstring"
 	"github.com/stretchr/testify/require"
-	testhelpers "go.mongodb.org/mongo-driver/internal/testutil/helpers"
-	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/connstring"
 )
 
 type credential struct {

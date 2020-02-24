@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
+	"github.com/MaxBreida/mongo-go-driver/bson"
+	"github.com/MaxBreida/mongo-go-driver/x/bsonx/bsoncore"
+	"github.com/MaxBreida/mongo-go-driver/x/mongo/driver/description"
 )
 
 var (

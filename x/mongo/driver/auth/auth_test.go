@@ -9,11 +9,11 @@ package auth_test
 import (
 	"testing"
 
+	"github.com/MaxBreida/mongo-go-driver/x/bsonx/bsoncore"
+	. "github.com/MaxBreida/mongo-go-driver/x/mongo/driver/auth"
+	"github.com/MaxBreida/mongo-go-driver/x/mongo/driver/wiremessage"
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	. "go.mongodb.org/mongo-driver/x/mongo/driver/auth"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/wiremessage"
 )
 
 func TestCreateAuthenticator(t *testing.T) {

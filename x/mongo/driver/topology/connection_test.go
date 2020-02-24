@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/MaxBreida/mongo-go-driver/x/mongo/driver"
+	"github.com/MaxBreida/mongo-go-driver/x/mongo/driver/address"
+	"github.com/MaxBreida/mongo-go-driver/x/mongo/driver/description"
 	"github.com/google/go-cmp/cmp"
-	"go.mongodb.org/mongo-driver/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/address"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
 )
 
 type netErr struct {

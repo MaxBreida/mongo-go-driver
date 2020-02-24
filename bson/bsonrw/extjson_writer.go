@@ -10,7 +10,6 @@ import (
 	"bytes"
 	"encoding/base64"
 	"fmt"
-	"go.mongodb.org/mongo-driver/bson/primitive"
 	"io"
 	"math"
 	"sort"
@@ -19,6 +18,8 @@ import (
 	"sync"
 	"time"
 	"unicode/utf8"
+
+	"github.com/MaxBreida/mongo-go-driver/bson/primitive"
 )
 
 var ejvwPool = sync.Pool{

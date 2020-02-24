@@ -13,8 +13,8 @@ import (
 	"io"
 	"strconv"
 
+	"github.com/MaxBreida/mongo-go-driver/bson/bsontype"
 	"github.com/go-stack/stack"
-	"go.mongodb.org/mongo-driver/bson/bsontype"
 )
 
 // DocumentValidationError is an error type returned when attempting to validate a document.

@@ -14,10 +14,10 @@ import (
 	"log"
 	"time"
 
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/bson/primitive"
-	"go.mongodb.org/mongo-driver/mongo/gridfs"
-	"go.mongodb.org/mongo-driver/mongo/options"
+	"github.com/MaxBreida/mongo-go-driver/bson"
+	"github.com/MaxBreida/mongo-go-driver/bson/primitive"
+	"github.com/MaxBreida/mongo-go-driver/mongo/gridfs"
+	"github.com/MaxBreida/mongo-go-driver/mongo/options"
 )
 
 func ExampleBucket_OpenUploadStream() {

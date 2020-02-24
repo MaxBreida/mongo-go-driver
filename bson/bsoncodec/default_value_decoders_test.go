@@ -17,12 +17,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/MaxBreida/mongo-go-driver/bson/bsonrw"
+	"github.com/MaxBreida/mongo-go-driver/bson/bsonrw/bsonrwtest"
+	"github.com/MaxBreida/mongo-go-driver/bson/bsontype"
+	"github.com/MaxBreida/mongo-go-driver/bson/primitive"
+	"github.com/MaxBreida/mongo-go-driver/x/bsonx/bsoncore"
 	"github.com/google/go-cmp/cmp"
-	"go.mongodb.org/mongo-driver/bson/bsonrw"
-	"go.mongodb.org/mongo-driver/bson/bsonrw/bsonrwtest"
-	"go.mongodb.org/mongo-driver/bson/bsontype"
-	"go.mongodb.org/mongo-driver/bson/primitive"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
 )
 
 func TestDefaultValueDecoders(t *testing.T) {

@@ -1,8 +1,8 @@
 <p align="center"><img src="etc/assets/mongo-gopher.png" width="250"></p>
 <p align="center">
-  <a href="https://goreportcard.com/report/go.mongodb.org/mongo-driver"><img src="https://goreportcard.com/badge/go.mongodb.org/mongo-driver"></a>
-  <a href="https://pkg.go.dev/go.mongodb.org/mongo-driver/mongo"><img src="etc/assets/godev-mongo-blue.svg" alt="docs"></a>
-  <a href="https://pkg.go.dev/go.mongodb.org/mongo-driver/bson"><img src="etc/assets/godev-bson-blue.svg" alt="docs"></a>
+  <a href="https://goreportcard.com/report/github.com/MaxBreida/mongo-go-driver"><img src="https://goreportcard.com/badge/github.com/MaxBreida/mongo-go-driver"></a>
+  <a href="https://pkg.go.dev/github.com/MaxBreida/mongo-go-driver/mongo"><img src="etc/assets/godev-mongo-blue.svg" alt="docs"></a>
+  <a href="https://pkg.go.dev/github.com/MaxBreida/mongo-go-driver/bson"><img src="etc/assets/godev-bson-blue.svg" alt="docs"></a>
   <a href="https://docs.mongodb.com/ecosystem/drivers/go/"><img src="etc/assets/docs-mongodb-green.svg"></a>
 </p>
 
@@ -29,17 +29,17 @@ The MongoDB supported driver for Go.
 ## Installation
 
 The recommended way to get started using the MongoDB Go driver is by using go modules to install the dependency in
-your project. This can be done either by importing packages from `go.mongodb.org/mongo-driver` and having the build
+your project. This can be done either by importing packages from `github.com/MaxBreida/mongo-go-driver` and having the build
 step install the dependency or by explicitly running
 
 ```bash
-go get go.mongodb.org/mongo-driver/mongo
+go get github.com/MaxBreida/mongo-go-driver/mongo
 ```
 
 When using a version of Go that does not support modules, the driver can be installed using `dep` by running
 
 ```bash
-dep ensure -add "go.mongodb.org/mongo-driver/mongo"
+dep ensure -add "github.com/MaxBreida/mongo-go-driver/mongo"
 ```
 
 -------------------------
@@ -49,8 +49,8 @@ To get started with the driver, import the `mongo` package, create a `mongo.Clie
 
 ```go
 import (
-    "go.mongodb.org/mongo-driver/mongo"
-    "go.mongodb.org/mongo-driver/mongo/options"
+    "github.com/MaxBreida/mongo-go-driver/mongo"
+    "github.com/MaxBreida/mongo-go-driver/mongo/options"
 )
 
 client, err := mongo.NewClient(options.Client().ApplyURI("mongodb://localhost:27017"))

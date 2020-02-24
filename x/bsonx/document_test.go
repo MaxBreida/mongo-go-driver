@@ -11,9 +11,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/MaxBreida/mongo-go-driver/bson/bsontype"
+	"github.com/MaxBreida/mongo-go-driver/x/bsonx/bsoncore"
 	"github.com/google/go-cmp/cmp"
-	"go.mongodb.org/mongo-driver/bson/bsontype"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
 )
 
 func ExampleDocument() {

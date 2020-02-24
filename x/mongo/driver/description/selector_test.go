@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/MaxBreida/mongo-go-driver/mongo/readpref"
+	"github.com/MaxBreida/mongo-go-driver/tag"
+	"github.com/MaxBreida/mongo-go-driver/x/mongo/driver/address"
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"go.mongodb.org/mongo-driver/tag"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/address"
 )
 
 func TestServerSelection(t *testing.T) {

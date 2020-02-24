@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/MaxBreida/mongo-go-driver/x/mongo/driver/wiremessage"
 	"github.com/golang/snappy"
 	"github.com/klauspost/compress/zstd"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/wiremessage"
 )
 
 // CompressionOpts holds settings for how to compress a payload

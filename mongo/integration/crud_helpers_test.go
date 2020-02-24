@@ -13,16 +13,16 @@ import (
 	"strconv"
 	"time"
 
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/bson/bsontype"
-	"go.mongodb.org/mongo-driver/bson/primitive"
-	"go.mongodb.org/mongo-driver/internal/testutil/assert"
-	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/mongo/gridfs"
-	"go.mongodb.org/mongo-driver/mongo/integration/mtest"
-	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/mongo/readconcern"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
+	"github.com/MaxBreida/mongo-go-driver/bson"
+	"github.com/MaxBreida/mongo-go-driver/bson/bsontype"
+	"github.com/MaxBreida/mongo-go-driver/bson/primitive"
+	"github.com/MaxBreida/mongo-go-driver/internal/testutil/assert"
+	"github.com/MaxBreida/mongo-go-driver/mongo"
+	"github.com/MaxBreida/mongo-go-driver/mongo/gridfs"
+	"github.com/MaxBreida/mongo-go-driver/mongo/integration/mtest"
+	"github.com/MaxBreida/mongo-go-driver/mongo/options"
+	"github.com/MaxBreida/mongo-go-driver/mongo/readconcern"
+	"github.com/MaxBreida/mongo-go-driver/mongo/readpref"
 )
 
 // Helper functions to execute and verify results from CRUD methods.

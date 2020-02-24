@@ -14,13 +14,13 @@ import (
 	"testing"
 	"time"
 
-	"go.mongodb.org/mongo-driver/internal/testutil/assert"
-	"go.mongodb.org/mongo-driver/internal/testutil/israce"
-	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/mongo/gridfs"
-	"go.mongodb.org/mongo-driver/mongo/integration/mtest"
-	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/x/bsonx"
+	"github.com/MaxBreida/mongo-go-driver/internal/testutil/assert"
+	"github.com/MaxBreida/mongo-go-driver/internal/testutil/israce"
+	"github.com/MaxBreida/mongo-go-driver/mongo"
+	"github.com/MaxBreida/mongo-go-driver/mongo/gridfs"
+	"github.com/MaxBreida/mongo-go-driver/mongo/integration/mtest"
+	"github.com/MaxBreida/mongo-go-driver/mongo/options"
+	"github.com/MaxBreida/mongo-go-driver/x/bsonx"
 )
 
 func TestGridFS(x *testing.T) {

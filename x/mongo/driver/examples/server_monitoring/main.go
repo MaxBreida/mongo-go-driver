@@ -10,9 +10,9 @@ import (
 	"log"
 	"time"
 
+	"github.com/MaxBreida/mongo-go-driver/x/mongo/driver/address"
+	"github.com/MaxBreida/mongo-go-driver/x/mongo/driver/topology"
 	"github.com/kr/pretty"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/address"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/topology"
 )
 
 func main() {

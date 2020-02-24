@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/MaxBreida/mongo-go-driver/mongo/writeconcern"
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/mongo/writeconcern"
 )
 
 func TestWriteConcernWithOptions(t *testing.T) {

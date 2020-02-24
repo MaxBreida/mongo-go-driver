@@ -18,13 +18,13 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/bson/primitive"
-	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/mongo/readconcern"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"go.mongodb.org/mongo-driver/mongo/writeconcern"
+	"github.com/MaxBreida/mongo-go-driver/bson"
+	"github.com/MaxBreida/mongo-go-driver/bson/primitive"
+	"github.com/MaxBreida/mongo-go-driver/mongo"
+	"github.com/MaxBreida/mongo-go-driver/mongo/options"
+	"github.com/MaxBreida/mongo-go-driver/mongo/readconcern"
+	"github.com/MaxBreida/mongo-go-driver/mongo/readpref"
+	"github.com/MaxBreida/mongo-go-driver/mongo/writeconcern"
 )
 
 func requireCursorLength(t *testing.T, cursor *mongo.Cursor, length int) {
